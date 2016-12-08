@@ -3,15 +3,15 @@
 **一个使用单例封装的通知弹窗, 自带上移动画效果**
 
 ## 集成方法
-** 将FXToast拖入工程即可,在需要使用的地方 `#import "FXToast"` **
+**将FXToast拖入工程即可,在需要使用的地方 `#import "FXToast"`**
 
 ## 使用方法
-- 1 ** 可以直接使用类名调用类方法显示 **
+- 1 **可以直接使用类名调用类方法显示**
 
 `
 	[FXToast showAlert:@"something"];`
 
-- 2 ** 可以创建单例对象,使用对象方法显示 **
+- 2 **可以创建单例对象,使用对象方法显示**
 
 ```
 	FXToast * toast = [FXToast sharedToast];

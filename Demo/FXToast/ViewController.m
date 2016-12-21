@@ -32,8 +32,8 @@
     
     [FXToast showAlert:self.textField.text];
     
-    FXToast * toast = [FXToast sharedToast];
-    [toast showAlert:@"someThing"];
+//    FXToast * toast = [FXToast sharedToast];
+//    [toast showAlert:@"someThing"];
     
 }
 

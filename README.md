@@ -8,14 +8,14 @@
 ## 使用方法
 - 1 **可以直接使用类名调用类方法显示**
 
-`
-	[FXToast showAlert:@"something"];`
+	`[FXToast showAlert:@"something"];`
 
 - 2 **可以创建单例对象,使用对象方法显示**
 
 ```
-	FXToast * toast = [FXToast sharedToast];
+	FXToast * toast = [FXToast sharedToast];        
     [toast showAlert:@"someThing"];
+    
 ```
     	    
     	    

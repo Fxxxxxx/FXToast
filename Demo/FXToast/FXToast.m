@@ -37,11 +37,17 @@ static FXToast * _instance;
     [[[UIApplication sharedApplication].windows lastObject] addSubview:self.alertLabel];
     self.alertLabel.text = message;
     [UIView animateWithDuration:.5 animations:^{
+        
         self.alertLabel.transform = CGAffineTransformMakeTranslation(0 , -150);
         
     } completion:^(BOOL finished) {
-        sleep(1);
-        self.alertLabel.transform = CGAffineTransformIdentity;
+        
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            
+            self.alertLabel.transform = CGAffineTransformIdentity;
+            
+        });
+        
     }];
 }
 

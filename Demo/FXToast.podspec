@@ -17,17 +17,16 @@ Pod::Spec.new do |s|
 
   s.name         = "FXToast"
   s.version      = "1.0.1"
-  s.summary      = "Toast for iOS, easy to use"
+  s.summary      = "A toast for iOS"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
+  s.description  = "A toast for iOS, created by Fxxx"
 
-  s.homepage     = "https://github.com/Fxxxxxx/FXToast"
+  s.homepage     = "https://github.com/Fxxxxxx/FXToast.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -54,8 +53,8 @@ Pod::Spec.new do |s|
 
   s.author             = { "Fxxx" => "e2shao1993@163.com" }
   # Or just: s.author    = "Fxxx"
-  # s.authors            = { "Fxxx" => "" }
-  # s.social_media_url   = ""
+  # s.authors            = { "Fxxx" => "e2shao1993@163.com" }
+  # s.social_media_url   = "http://twitter.com/Fxxx"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -63,8 +62,8 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  s.platform     = :ios
+  #s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -79,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/Fxxxxxx/FXToast.git", :tag => "1.0.1" }
+  s.source       = { :git => "https://github.com/Fxxxxxx/FXToast.git.git", :tag => "1.1.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +90,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "FXToast", "FXToast/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+#s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 

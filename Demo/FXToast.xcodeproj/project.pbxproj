@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3059F5A51E726BC40030E83A /* FXToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 3059F5A41E726BC40030E83A /* FXToast.m */; };
 		30AB922C1DF8F3A900056B2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30AB922B1DF8F3A900056B2B /* main.m */; };
 		30AB922F1DF8F3A900056B2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30AB922E1DF8F3A900056B2B /* AppDelegate.m */; };
 		30AB92321DF8F3A900056B2B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30AB92311DF8F3A900056B2B /* ViewController.m */; };
 		30AB92351DF8F3A900056B2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30AB92331DF8F3A900056B2B /* Main.storyboard */; };
 		30AB92371DF8F3A900056B2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30AB92361DF8F3A900056B2B /* Assets.xcassets */; };
 		30AB923A1DF8F3A900056B2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30AB92381DF8F3A900056B2B /* LaunchScreen.storyboard */; };
-		30AB92431DF8F3F700056B2B /* FXToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 30AB92421DF8F3F700056B2B /* FXToast.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3059F5A31E726BC40030E83A /* FXToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXToast.h; sourceTree = "<group>"; };
+		3059F5A41E726BC40030E83A /* FXToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXToast.m; sourceTree = "<group>"; };
 		30AB92271DF8F3A900056B2B /* FXToast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FXToast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30AB922B1DF8F3A900056B2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		30AB922D1DF8F3A900056B2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -27,8 +29,6 @@
 		30AB92361DF8F3A900056B2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30AB92391DF8F3A900056B2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30AB923B1DF8F3A900056B2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		30AB92411DF8F3F700056B2B /* FXToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXToast.h; sourceTree = "<group>"; };
-		30AB92421DF8F3F700056B2B /* FXToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXToast.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +42,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3059F5A21E726BC40030E83A /* FXToast */ = {
+			isa = PBXGroup;
+			children = (
+				3059F5A31E726BC40030E83A /* FXToast.h */,
+				3059F5A41E726BC40030E83A /* FXToast.m */,
+			);
+			path = FXToast;
+			sourceTree = "<group>";
+		};
 		30AB921E1DF8F3A900056B2B = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +70,7 @@
 		30AB92291DF8F3A900056B2B /* FXToast */ = {
 			isa = PBXGroup;
 			children = (
+				3059F5A21E726BC40030E83A /* FXToast */,
 				30AB922D1DF8F3A900056B2B /* AppDelegate.h */,
 				30AB922E1DF8F3A900056B2B /* AppDelegate.m */,
 				30AB92301DF8F3A900056B2B /* ViewController.h */,
@@ -70,8 +80,6 @@
 				30AB92381DF8F3A900056B2B /* LaunchScreen.storyboard */,
 				30AB923B1DF8F3A900056B2B /* Info.plist */,
 				30AB922A1DF8F3A900056B2B /* Supporting Files */,
-				30AB92411DF8F3F700056B2B /* FXToast.h */,
-				30AB92421DF8F3F700056B2B /* FXToast.m */,
 			);
 			path = FXToast;
 			sourceTree = "<group>";
@@ -157,7 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30AB92321DF8F3A900056B2B /* ViewController.m in Sources */,
-				30AB92431DF8F3F700056B2B /* FXToast.m in Sources */,
+				3059F5A51E726BC40030E83A /* FXToast.m in Sources */,
 				30AB922F1DF8F3A900056B2B /* AppDelegate.m in Sources */,
 				30AB922C1DF8F3A900056B2B /* main.m in Sources */,
 			);

@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FXToast"
-  s.version      = "1.0.1"
+  s.version      = "1.1.1"
   s.summary      = "A toast for iOS"
 
   # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = "A toast for iOS, created by Fxxx"
 
-  s.homepage     = "https://github.com/Fxxxxxx/FXToast.git"
+  s.homepage     = "https://github.com/Fxxxxxx/FXToast"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -37,8 +37,8 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+#s.license      = "MIT"
+  s.license      = { :type => "MIT", :file => "README" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -62,7 +62,7 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  s.platform     = :ios
+  s.platform     = :ios, "7.0"
   #s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/Fxxxxxx/FXToast.git.git", :tag => "1.1.1" }
+  s.source       = { :git => "https://github.com/Fxxxxxx/FXToast.git", :tag => "1.1.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

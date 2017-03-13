@@ -17,14 +17,16 @@
 
 @implementation FXToast
 
-static FXToast * _instance;
-
 + (instancetype)sharedToast{
+    
+    static FXToast * _instance;
     static dispatch_once_t onceToken;
     _dispatch_once(&onceToken, ^{
         _instance = [[super allocWithZone:NULL] init];
     });
+    
     return _instance;
+    
 }
 
 + (instancetype)allocWithZone:(struct _NSZone *)zone{

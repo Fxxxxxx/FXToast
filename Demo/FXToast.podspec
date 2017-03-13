@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FXToast"
-  s.version      = "1.1.2"
+  s.version      = "1.1.4"
   s.summary      = "A toast for iOS"
 
   # This description is used to generate tags and improve search results.
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/Fxxxxxx/FXToast.git", :tag => "1.1.3" }
+  s.source       = { :git => "https://github.com/Fxxxxxx/FXToast.git", :tag => "1.1.4" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

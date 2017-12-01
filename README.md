@@ -13,8 +13,8 @@
 - 2 **可以创建单例对象,使用对象方法显示**
 
 ```
-	FXToast * toast = [FXToast sharedToast];        
-    [toast showAlert:@"someThing"];
+FXToast * toast = [FXToast sharedToast];        
+[toast showAlert:@"someThing"];
     
 ```
     	    

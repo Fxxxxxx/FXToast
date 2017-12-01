@@ -4,6 +4,7 @@
 
 ## 集成方法
 **将FXToast拖入工程即可,在需要使用的地方 `#import "FXToast.h"`**
+**Cocoapods  pod FXToast
 
 ## 使用方法
 - 1 **可以直接使用类名调用类方法显示**
